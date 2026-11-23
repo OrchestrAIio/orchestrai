@@ -1,0 +1,18 @@
+{
+  "name": "orchestrai",
+  "description": "OrchestrAI plugins for Claude Code: your team's OrchestrAI agent, approvals, infrastructure ledger and shared context over MCP.",
+  "owner": {
+    "name": "OrchestrAI",
+    "email": "support@orchestrai.io",
+    "url": "https://orchestrai.io"
+  },
+  "plugins": [
+    {
+      "name": "orchestrai",
+      "source": "./plugins/orchestrai",
+      "description": "Connects Claude Code to OrchestrAI's /mcp server and adds skills for asking the team agent, checking approvals, looking up managed resources and using your team's synced context.",
+      "category": "devops",
+      "tags": ["orchestrai", "infrastructure", "team", "mcp", "approvals"]
+    }
+  ]
+}

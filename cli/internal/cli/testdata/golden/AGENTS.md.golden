@@ -1,0 +1,10 @@
+# Project notes
+
+Hand-written guidance stays.
+
+<!-- orchestrai:begin -->
+## Team rules
+
+- Use pnpm, never npm.
+- Every PR needs a test.
+<!-- orchestrai:end -->

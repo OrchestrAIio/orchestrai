@@ -1,0 +1,4 @@
+# orchestrai:begin
+[mcp_servers.orchestrai]
+url = "https://api.test/mcp/gateway/p1"
+# orchestrai:end

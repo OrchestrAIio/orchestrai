@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "orchestrai": {
+      "type": "http",
+      "url": "${ORCHESTRAI_API_URL:-https://orchestrai-api-production.up.railway.app}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ORCHESTRAI_API_KEY}"
+      }
+    }
+  }
+}

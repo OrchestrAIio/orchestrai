@@ -1,0 +1,17 @@
+{
+  "name": "orchestrai",
+  "displayName": "OrchestrAI",
+  "version": "0.1.0",
+  "description": "Use your team's OrchestrAI workspace from Claude Code: projects, shared conversations, the OrchestrAI agent, pending approvals, the managed-resource ledger and the team's synced rules.",
+  "author": {
+    "name": "OrchestrAI",
+    "email": "support@orchestrai.io",
+    "url": "https://orchestrai.io"
+  },
+  "homepage": "https://orchestrai.io",
+  "privacyPolicyUrl": "https://orchestrai.io/privacy",
+  "icon": "./assets/icon.png",
+  "repository": "https://github.com/OrchestrAIio/orchestrai",
+  "license": "MIT",
+  "keywords": ["orchestrai", "infrastructure", "devops", "team", "mcp", "approvals", "ledger"]
+}

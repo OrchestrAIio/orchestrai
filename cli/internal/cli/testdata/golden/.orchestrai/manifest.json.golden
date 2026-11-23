@@ -1,0 +1,49 @@
+{
+  "bundle_version": "1",
+  "bundle_hash": "hash-1",
+  "files": {
+    ".codex/config.toml": "1dc55826f6a4bdb127d5341cd41a35bedc75f1187d5744b02325fc29dac70595",
+    ".cursor/mcp.json": "c1de352794c7a8aad020f73f98755f483c0939cf067ecbb698f6c513d5ba965a",
+    ".cursor/rules/backend.mdc": "63aea718172bc7fbe98fe2df1291b458058defd3902ac8869a08eb4bd7637ca0",
+    ".github/instructions/backend.instructions.md": "ff15a330e9e11ce33795e946290da721e869a9e03278c38f38533ad606890fcb",
+    ".mcp.json": "b6a0397ab013913702e7a2856b3a544a1ac4167106b8ac2d51a7078d093e23c1",
+    ".vscode/mcp.json": "d5873bcf764b2215465436412efcf54cedc300f9713938735af1d580e3cc0714",
+    "AGENTS.md": "5820e86d678679306ab0b287b0e321c7798c1cbcf809d12da7a7b9c01ba18d38",
+    "CLAUDE.md": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+  },
+  "entries": {
+    ".codex/config.toml": {
+      "strategy": "managed_block",
+      "tool": "codex"
+    },
+    ".cursor/mcp.json": {
+      "strategy": "json_merge",
+      "tool": "cursor"
+    },
+    ".cursor/rules/backend.mdc": {
+      "strategy": "file",
+      "tool": "cursor"
+    },
+    ".github/instructions/backend.instructions.md": {
+      "strategy": "file",
+      "tool": "copilot"
+    },
+    ".mcp.json": {
+      "strategy": "json_merge",
+      "tool": "claude"
+    },
+    ".vscode/mcp.json": {
+      "strategy": "json_merge",
+      "tool": "vscode"
+    },
+    "AGENTS.md": {
+      "strategy": "managed_block",
+      "tool": "agents"
+    },
+    "CLAUDE.md": {
+      "strategy": "managed_block",
+      "tool": "claude"
+    }
+  },
+  "etag": "\"v1\""
+}

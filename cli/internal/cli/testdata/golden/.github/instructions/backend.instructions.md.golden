@@ -1,0 +1,4 @@
+---
+applyTo: "src/api/**"
+---
+Validate input with zod.

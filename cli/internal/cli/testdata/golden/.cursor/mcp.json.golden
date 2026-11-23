@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "orchestrai": {
+      "url": "https://api.test/mcp/gateway/p1",
+      "x-orchestrai": true
+    }
+  }
+}

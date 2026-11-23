@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "local-db": {
+      "type": "stdio",
+      "command": "db-mcp"
+    },
+    "orchestrai": {
+      "type": "http",
+      "url": "https://api.test/mcp/gateway/p1",
+      "x-orchestrai": true
+    }
+  }
+}

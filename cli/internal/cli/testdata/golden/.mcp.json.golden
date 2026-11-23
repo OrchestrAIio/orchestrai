@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "orchestrai": {
+      "type": "http",
+      "url": "https://api.test/mcp/gateway/p1",
+      "x-orchestrai": true
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      },
+      "x-orchestrai": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "@orchestrai/acp",
+  "version": "0.1.0",
+  "description": "OrchestrAI Live agent for Zed, JetBrains, Neovim and any Agent Client Protocol (ACP) editor: your team's shared OrchestrAI conversations, streamed into the editor.",
+  "license": "MIT",
+  "author": "OrchestrAI",
+  "homepage": "https://orchestrai.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrchestrAIio/orchestrai.git",
+    "directory": "acp-bridge"
+  },
+  "keywords": [
+    "acp",
+    "agent-client-protocol",
+    "orchestrai",
+    "zed",
+    "jetbrains",
+    "ai-agent"
+  ],
+  "type": "module",
+  "bin": {
+    "orchestrai-acp": "dist/index.js"
+  },
+  "main": "dist/agent.js",
+  "types": "dist/agent.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.test.json --noEmit",
+    "test": "npm run build && node --test --import tsx --test-concurrency=1 test/units.test.ts test/registry.test.ts test/session.test.ts test/e2e.test.ts",
+    "prepublishOnly": "npm run typecheck && npm test"
+  },
+  "dependencies": {
+    "@agentclientprotocol/sdk": "1.9.0",
+    "ws": "8.22.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "@types/ws": "8.18.2",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  }
+}
