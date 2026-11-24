@@ -114,6 +114,7 @@ func commands() []command {
 		{"workflows", "List and run OrchestrAI automations (list|run)", (*App).cmdWorkflows},
 		{"ask", "Ask the team's OrchestrAI agent and stream the reply", (*App).cmdAsk},
 		{"rooms", "List live co-coding rooms or open one (list|open)", (*App).cmdRooms},
+		{"keys", "Inspect BYOK AI provider keys and local env keys (status|open)", (*App).cmdKeys},
 		{"version", "Print the CLI version", (*App).cmdVersion},
 	}
 }
