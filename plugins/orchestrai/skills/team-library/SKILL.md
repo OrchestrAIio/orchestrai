@@ -70,7 +70,7 @@ confirm. Publishing to `community` makes the content public.
 ## Limits on the Free plan
 
 The Free plan (pay as you go) includes the team library with caps:
-- 25 rules
+- 50 rules
 - 10 skills, at most 100 KB each
 - 10 workflows
 - 10 subagents

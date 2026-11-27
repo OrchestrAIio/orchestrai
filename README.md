@@ -20,7 +20,7 @@ orchestrai init && orchestrai sync
 
 `orchestrai sync` writes your team's shared setup into AGENTS.md, CLAUDE.md, `.mcp.json`, and the config files for Cursor, VS Code and Codex.
 
-You can also download a CLI binary for your platform from [Releases](https://github.com/OrchestrAIio/orchestrai/releases) and check it against the `orchestrai_<version>_checksums.txt` file in the same release. To build from source, run `go install github.com/OrchestrAIio/orchestrai/cli/cmd/orchestrai@latest`.
+You can also download a CLI binary for your platform from [Releases](https://github.com/OrchestrAIio/orchestrai/releases) and check it against the `orchestrai_<version>_checksums.txt` file in the same release. To build from source, run `go install github.com/OrchestrAIio/orchestrai/cli@latest`.
 
 Claude Code:
 
